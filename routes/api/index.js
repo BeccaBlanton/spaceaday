@@ -1,7 +1,6 @@
-cosnt router = require("express").Router()
-const nasaRoutes = require("./nasa")
-const dbRoutes = require("./db")
 const router = require("express").Router()
+const nasaRoutes = require("./nasa");
+const dbRoutes = require("./db");
 
 //seperated routes
 router.use("/nasa", nasaRoutes);

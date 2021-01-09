@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 var PORT = process.env.PORT || 8080;
 //api routes
-const routes = require("./routes/index.js");
+const routes = require("./routes");
 //models for sequelize
 const db = require("./models");
 
